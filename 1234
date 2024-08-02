@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Other - Your Name</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="other.html">Other</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="other" class="otherSection">
+      <div class="container">
+        <h2>Certificates, Awards, and Activities</h2>
+        <div id="img-box"></div>
+        <div class="certificates" data-aos="fade-up">
+          <h3>Certificates</h3>
+          <div class="certificate-item" style="position: relative">
+            <img
+              src="certificates&resume/100D_python.jpeg"
+              alt="100 Days of Code Certificate"
+            />
+            <p>100 Days of Code Certificate</p>
+            <a href="#" style="position: absolute; right: 5px; top: 20px"
+              ><img
+                src="icons/link.png"
+                style="height: 20px; width: 30px; object-fit: contain"
+            /></a>
+          </div>
+          <div class="certificate-item">
+            <img
+              src="certificates&resume/Kaggle_ML.png"
+              alt="Kaggle Machine Learning Certificate"
+            />
+            <p>Kaggle Machine Learning Certificate</p>
+            <a href="#" style="position: absolute; right: 5px; top: 20px"
+              ><img
+                src="icons/link.png"
+                style="height: 20px; width: 30px; object-fit: contain"
+            /></a>
+          </div>
+          <div class="certificate-item">
+            <img
+              src="certificates&resume/Kaggle_Python.png"
+              alt="Kaggle Python Learning Certificate"
+            />
+            <p>100 Days of Code Certificate</p>
+            <a href="#" style="position: absolute; right: 5px; top: 20px"
+              ><img
+                src="icons/link.png"
+                style="height: 20px; width: 30px; object-fit: contain"
+            /></a>
+          </div>
+          <div class="certificate-item">
+            <img
+              src="certificates&resume/DS_FUNDAMENTAL.png"
+              alt="DS_FUNDAMENTAL"
+            />
+            <p>IBM Data Science Fundamental certificate</p>
+            <a
+              href="https://www.credly.com/badges/d81ea913-baad-4535-86cd-9788595fa6e9/public_url"
+              style="position: absolute; right: 5px; top: 20px"
+              ><img
+                src="icons/link.png"
+                style="height: 20px; width: 30px; object-fit: contain"
+            /></a>
+          </div>
+          <div class="certificate-item">
+            <img
+              src="certificates&resume/Project_Management.png"
+              alt="Project_Management"
+            />
+            <p>IBM Project Management certificate</p>
+            <a
+              href="https://www.credly.com/badges/d66a8bfb-a10f-4008-a991-5f44d415c0f7/public_url"
+              style="position: absolute; right: 5px; top: 20px"
+              ><img
+                src="icons/link.png"
+                style="height: 20px; width: 30px; object-fit: contain"
+            /></a>
+          </div>
+          <div class="certificate-item">
+            <img
+              src="certificates&resume/Emerging_tech.png"
+              alt="Emerging_tech"
+            />
+            <p>IBM Explore Emerging Tech certificate</p>
+            <a
+              href="https://www.credly.com/badges/582b822a-6b29-42dc-8b55-c534baa86fc3/public_url"
+              style="position: absolute; right: 5px; top: 20px"
+              ><img
+                src="icons/link.png"
+                style="height: 20px; width: 30px; object-fit: contain"
+            /></a>
+          </div>
+        </div>
+        <div class="awards" data-aos="fade-up">
+          <h3>Awards</h3>
+          <p>Include your awards here.</p>
+        </div>
+        <div class="activities" data-aos="fade-up">
+          <h3>Activities</h3>
+          <p>Include your activities here.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- 
+    <script>
+      const allCertificates = document.querySelectorAll(".certificate-item");
+      const otherSeaction = document.querySelector(".otherSection");
+      let overlay;
+      console.log(otherSeaction);
+      allCertificates.forEach((item) => {
+        item.addEventListener("click", (e) => {
+          console.log(e.target);
+          overlay = document.createElement("div");
+          overlay.id = "overlay";
+          document.body.appendChild(overlay);
+
+          const img = document.createElement("img");
+          img.src = e.target.src;
+          img.className = "large-img";
+          overlay.appendChild(img);
+          otherSeaction.style.backgroundColor = "grey";
+        });
+      });
+
+      document.addEventListener("click", (e) => {
+        console.log(e.target);
+        if (!(e.target.id = "overlay")) {
+          document.body.removeChild(overlay);
+          // otherSeaction.style.backgroundColor = "white";
+        }
+      });
+    </script> -->
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
