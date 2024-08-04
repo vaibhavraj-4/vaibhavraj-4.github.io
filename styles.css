@@ -275,7 +275,7 @@ section#home {
 }
 
 #large-header {
-  background-image: url("icons/cool-background1.svg");
+  background-image: url("icons/background-01.jpg");
 }
 /* https://cdn.pixabay.com/photo/2024/04/09/04/23/ai-generated-8684971_1280.jpg */
 .main-title {
@@ -302,7 +302,7 @@ section#home {
   font-size: 3rem;
   font-style: italic;
   text-align: center;
-  margin: 150px;
+  margin: 250px;
   padding: 50px;
 }
 
