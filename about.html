@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About - Vaibhav Raj</title>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Typed.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
@@ -34,12 +37,14 @@
 
     <main>
       <section id="about">
-        <div id="my_name"><h1>Hello! my name is Vaibhav Raj...</h1></div>
+        <div class="typo_animation"> <span id="typed-output" class="typing-effect"></span></div>
+       
+        <!-- <div id="my_name"><h1>Hello! my name is Vaibhav Raj...</h1></div> -->
         <div class="container">
           <h3 style="font-size: 3rem">Skills</h3>
           <div class="skills" data-aos="fade-up">
             <div class="skill"  data-aos="fade-up">
-              <img src="icons/python-logo.png" alt="Python" />
+              <img src="icons/python-logo.png" alt="Python"/>
               <p>Python</p>
             </div>
             <div class="skill"  data-aos="fade-up">
@@ -193,5 +198,6 @@
     <script>
       AOS.init();
     </script>
+     <script src="scripts01.js"></script>
   </body>
 </html>
