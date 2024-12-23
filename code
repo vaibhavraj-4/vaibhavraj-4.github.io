@@ -1,0 +1,9 @@
+<div class="container">
+  <img src="bgrnd.jpg" alt="Your Photo" class="profile-photo" />
+  <h1>Step Into My World of Coding</h1>
+  <h2>"Where ideas transform into impactful programs—explore my portfolio."</h2>
+  <h4>Tech Enthusiast "On a journey to innovate and optimize through code."</h4>
+</div>
+
+section .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+.skills { display: flex; justify-content: space-around; flex-wrap: wrap; }
